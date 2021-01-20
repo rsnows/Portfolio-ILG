@@ -32,16 +32,16 @@ body {
 	font-weight: 400;
 }
 
-.capa {
+.cover {
 	color: white;
 }
 
-.capa span {
+.cover span {
 	color: blue;
 	display: block;
 }
 
-.capa div {
+.cover div {
 	display: inline-block;
 	height: 650px;
 }
@@ -77,22 +77,22 @@ body {
 	margin-top: -20px;
 }
 
-.cv-main {
+.main {
 	padding: 80px 180px 80px 100px;
 }
 
-.cv-main img {
+.cv-pic {
 	width: 370px;
 	float: left;
 	margin-right: 20px;
 }
 
-.cv-main h1 {
+.main h1 {
 	color: white;
 	font-weight: normal;
 }
 
-.cv-main h2 {
+.main h2 {
 	color: white;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -100,13 +100,13 @@ body {
 	margin-top: 50px;
 }
 
-.cv-main h3 {
+.main h3 {
 	color: blue;
 	font-size: 12px;
 	text-transform: uppercase;
 }
 
-.cv-main p {
+.main p {
 	color: white;
 	font-size: 18px;
 	font-weight: 100;
@@ -122,4 +122,9 @@ body {
 
 .path li {
 	display: inline-block;
+}
+
+.social-img {
+	width: 50px;
+	margin-right: 10px;
 }
