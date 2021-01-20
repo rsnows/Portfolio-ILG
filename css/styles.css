@@ -1,7 +1,6 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	font-size: 0;
 }
 
 body {
@@ -62,7 +61,7 @@ body {
 .profile-title {
 	background-color: purple;
 	vertical-align: top;
-	width: 60%;
+	width: 59%;
 }
 
 .profile-title h1 {
@@ -76,4 +75,51 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	margin-top: -20px;
+}
+
+.cv-main {
+	padding: 80px 180px 80px 100px;
+}
+
+.cv-main img {
+	width: 370px;
+	float: left;
+	margin-right: 20px;
+}
+
+.cv-main h1 {
+	color: white;
+	font-weight: normal;
+}
+
+.cv-main h2 {
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 50px;
+}
+
+.cv-main h3 {
+	color: blue;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.cv-main p {
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 24px;
+	text-align: justify;
+}
+
+.path {
+	list-style: none;
+	padding-left: 0;
+	color: yellow;
+}
+
+.path li {
+	display: inline-block;
 }
