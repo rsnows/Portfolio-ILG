@@ -77,14 +77,15 @@ body {
 	margin-top: -20px;
 }
 
-.main {
-	padding: 80px 180px 80px 100px;
-}
 
 .cv-pic {
 	width: 370px;
 	float: left;
 	margin-right: 20px;
+}
+
+.main {
+	padding: 80px 150px 80px 100px;
 }
 
 .main h1 {
@@ -127,4 +128,50 @@ body {
 .social-img {
 	width: 50px;
 	margin-right: 10px;
+}
+
+.mini {
+	width: 320px;
+	height: 320px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.mini a {
+	text-decoration: none;
+}
+
+.blackbox { 
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0;
+	padding-top: 130px;
+}
+
+.blackbox:hover {
+	opacity: .8;
+}
+
+.blackbox-text {
+	text-align: center;
+}
+
+.blackbox-text h1 {
+	font-size: 16px;
+	color: purple;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.blackbox-text h2 {
+	text-transform: none;
+	font-weight: 100;
+	margin-top: 0;
+}
+
+.works {
+	width: 100%;
 }
