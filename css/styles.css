@@ -32,6 +32,19 @@ body {
 	font-weight: 400;
 }
 
+.navigation a {
+	color: white;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: blue;
+}
+
+.navigation li.threeline-icon {
+	display: none;
+}
+
 .cover {
 	color: white;
 }
@@ -125,6 +138,10 @@ body {
 	display: inline-block;
 }
 
+.path a {
+	color: grey;
+}
+
 .social-img {
 	width: 50px;
 	margin-right: 10px;
@@ -174,4 +191,10 @@ body {
 
 .works {
 	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.back-link {
+	color: yellow;
 }
