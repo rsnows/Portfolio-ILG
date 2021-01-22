@@ -12,6 +12,10 @@ body {
 	background-color: black;
 	color: white;
 	height: 50px;
+
+
+	animation-name: nav-anim;
+	animation-duration: 4s;
 }
 
 .navigation ul {
@@ -69,12 +73,18 @@ body {
 	width: 350px;
 	border-radius: 350px;
 	margin-top: 100px;
+
+	animation-name: cover-pic;
+	animation-duration: 2s;
 }
 
 .profile-title {
 	background-color: purple;
 	vertical-align: top;
 	width: 59%;
+
+	animation-name: cover-title;
+	animation-duration: 2s;
 }
 
 .profile-title h1 {
@@ -99,6 +109,9 @@ body {
 
 .main {
 	padding: 80px 150px 80px 100px;
+
+	animation-name: content-anim;
+	animation-duration: 2s;
 }
 
 .main h1 {
@@ -166,10 +179,12 @@ body {
 	background-color: black;
 	opacity: 0;
 	padding-top: 130px;
+	transition: 1s
 }
 
 .blackbox:hover {
 	opacity: .8;
+	transition: 1s
 }
 
 .blackbox-text {
@@ -197,4 +212,25 @@ body {
 
 .back-link {
 	color: yellow;
+}
+
+@keyframes cover-pic {
+	0% {opacity: 0; transform: translate(0px,20px);}
+	100% {opacity: 1; transform: translate(0px,0px);}
+}
+
+@keyframes cover-title {
+	0% {opacity: 0; transform: translate(0px,-20px);}
+	100% {opacity: 1; transform: translate(0px,0px);}
+}
+
+@keyframes content-anim {
+	0% {opacity: 0; transform: translate(-20px,0px);}
+	100% {opacity: 1; transform: translate(0px,0px);}
+}
+
+@keyframes nav-anim {
+	0% {opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
 }
