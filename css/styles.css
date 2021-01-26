@@ -49,6 +49,10 @@ body {
 	display: none;
 }
 
+.navigation li.threeline-icon:hover {
+	cursor: pointer;
+}
+
 .cover {
 	color: white;
 }
@@ -309,6 +313,24 @@ body {
 
 	.blackbox {
 		opacity: .8;
+	}
+
+	.menujs {
+		height: auto;
+	}
+
+	.menujs ul {
+		height: auto;
+		text-align: center;
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+	
+	.menujs li {
+		display: block;
+		border-bottom: solid 1px;
+		padding: 0;
+		width: 100%;
 	}
 
 }
