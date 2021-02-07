@@ -99,6 +99,10 @@ body {
 	width: 370px;
 	float: left;
 	margin-right: 20px;
+	padding:1px;
+	border:1px solid white;
+	background-color: white;
+	border-radius: 10px;
 }
 
 .main {
@@ -151,7 +155,7 @@ body {
 }
 
 .path a {
-	color: grey;
+	color: rgb(97, 96, 96);
 }
 
 .social-img {
@@ -182,7 +186,7 @@ body {
 }
 
 .blackbox:hover {
-	opacity: .8;
+	opacity: .9;
 	transition: 1s
 }
 
@@ -191,25 +195,46 @@ body {
 }
 
 .blackbox-text h1 {
-	font-size: 16px;
-	color: #cc8b4e;
-	text-transform: uppercase;
+	font-size: 18px;
+	color: black;
+	text-shadow: 2px 0 0 #9e6835, -2px 0 0 #9e6835, 0 2px 0 #9e6835, 0 -2px 0 #9e6835, 1px 1px #9e6835, -1px -1px 0 #9e6835, 1px -1px 0 #9e6835, -1px 1px 0 #9e6835;
 	margin-top: 0;
 }
 
 .blackbox-text h2 {
+	font-size: 14px;
 	text-transform: none;
 	font-weight: 400;
 	margin-top: 0;
 }
 
 .works {
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.works-full {
 	width: 100%;
 	margin-top: 10px;
-	margin-bottom: 20px;
 }
 
 .back-link {
+	color: white;
+}
+
+.contact-icon {
+	display: block;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+.contact-icon img {
+	vertical-align: middle;
+}
+
+.contact-icon span {
 	color: white;
 }
 
