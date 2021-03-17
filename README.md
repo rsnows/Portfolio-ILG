@@ -1,4 +1,4 @@
-#Portfólio Roberto Soares Neves
+# Portfólio Roberto Soares Neves
 
 Very simple responsive portfolio website in portuguese, made with HTML and CSS in professor Ivan Lourenço Gomes's 8-hour course. It has home, resume and contact pages, in addition to six examples of translation, journalism and proofreading works.
 
